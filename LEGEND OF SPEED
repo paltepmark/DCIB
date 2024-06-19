@@ -3,7 +3,7 @@
 ]] 
 
 --[[Tabs and Uilib]]--
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/paltepmark/DCIB/main/DCIBUI"))()
 
 local main = Library:Create("DCIB MOD","Legends of speed ")
 local AutoW = main:Tab("AutoFarm")
