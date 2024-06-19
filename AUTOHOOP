@@ -1,0 +1,14 @@
+_G.bruh = true
+while _G.bruh do 
+    wait()
+
+for _,v in next, game.Workspace:GetDescendants() do
+if v.Name == "outerOrb" then
+    v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    elseif v.Name == "outerGem" then
+        v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        elseif v.Name == "Hoop" then 
+            v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    end
+end
+end
